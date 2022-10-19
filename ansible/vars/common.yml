@@ -1,0 +1,119 @@
+common_homebrew_taps:
+  - homebrew/core
+  - heroku/brew
+  - mongodb/brew
+  - neovim/neovim
+  - osx-cross/avr # for ergodox-ez
+common_homebrew_installed_packages:
+  - asdf
+  - awscli
+  - avr-gcc # for ergodox-ez
+  - cmake
+  - colordiff
+  - coreutils
+  - dfu-programmer # for ergodox-ez
+  - direnv
+  - findutils
+  - fontforge
+  - fzf
+  - ghq
+  - gist
+  - git
+  - git-filter-repo
+  - git-lfs
+  - git-now
+  - gnu-sed
+  - gnu-tar
+  - go
+  - glide
+  - heroku
+  - hub
+  - htop
+  - httpie
+  - imagemagick
+  - jq
+  - krew
+  - kustomize
+  - libxml2
+  - libxslt
+  - lua
+  - mas
+  - minikube
+  - neovim
+  - nginx
+  - nkf
+  - noti
+  - openjdk
+  - openssl@1.1
+  - pstree
+  - pup
+  - pt # the_platinum_searcher
+  - python3
+  - pwgen
+  - rbenv
+  - rbenv-default-gems
+  - readline
+  - redis
+  - rename
+  - ruby-build
+  - source-highlight
+  - starship
+  - sqlite
+  - teensy_loader_cli # for ergodox-ez
+  - tfenv
+  - the_silver_searcher # ag
+  - tig
+  - tmux
+  - tree
+  - watch
+  - webpack
+  - wget
+  - yarn
+  - zplug
+  - zsh
+common_homebrew_uninstalled_packages:
+  - emojify
+  - ffmpeg
+  - hidetatz/tap/kubecolor # not support krew?
+  - mecab
+  - mecab-ipadic
+  - mongodb-community
+  - nodenv
+  - openvpn
+  - pandoc
+common_homebrew_cask_apps:
+  - alfred
+  - authy
+  - chromedriver
+  - deepl
+  - docker
+  - google-chrome
+  - iterm2
+  - karabiner-elements
+  - sequel-pro
+  - skitch
+  - slack
+  - zoom
+common_dotfiles_repo: https://github.com/nalabjp/dotfiles.git
+common_dotfiles_repo_local_destination: ~/ghq/github.com/nalabjp/dotfiles
+common_dotfiles_files:
+  - .bundle
+  - .config/karabiner/karabiner.json
+  - .config/karabiner/assets/complex_modifications/1529164038.json
+  - .config/nvim/init.vim
+  - .config/pry/pryrc
+  - .config/starship.toml
+  - .gemrc
+  - .gitconfig
+  - .gitignore
+  - .gitscript
+  - .gvimrc
+  - .rbenv/default-gems
+  - .rspec
+  - .tigrc
+  - .tmux.conf
+  - .zprofile
+  - .zshenv
+  - .zshrc
+common_mas_installed_apps:
+  - { id: 1480933944, name: "Vimari" }

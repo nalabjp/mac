@@ -1,0 +1,5 @@
+xdg_config_home: ~/.config
+homebrew_prefix: "{{ (ansible_machine == 'arm64') | ternary('/opt/homebrew', '/usr/local/Homebrew') }}"
+homebrew_install_path: "{{ homebrew_prefix }}"
+homebrew_use_brewfile: false
+homebrew_cask_accept_external_apps: true

@@ -1,0 +1,8 @@
+- name: Touch .hushlogin
+  ansible.builtin.file:
+    path: ~/.hushlogin
+    state: touch
+
+- name: Create ~/.zshrc.local
+  shell: |
+    ansible-vault view ~/ghq/github.com/nalabjp/dotfiles/.zshrc.local.enc --vault-password-file ~/.ansible-vault > ~/.zshrc.local

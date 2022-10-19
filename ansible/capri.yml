@@ -1,0 +1,41 @@
+- name: Set up for work
+  hosts: capri
+  connection: local
+  become_user: "{{ ansible_user_id }}"
+  gather_facts: yes
+
+  vars_files:
+    - vars/common.yml
+    - vars/capri.yml
+
+  pre_tasks:
+    - ansible.builtin.include_role:
+        name: directories
+
+  roles:
+    - role: geerlingguy.mac.homebrew
+      tags: homebrew
+      vars:
+        homebrew_taps: "{{ common_homebrew_taps }}"
+        homebrew_installed_packages: "{{ common_homebrew_installed_packages + capri_homebrew_installed_packages }}"
+        homebrew_uninstalled_packages: "{{ common_homebrew_uninstalled_packages }}"
+        homebrew_cask_apps: "{{ common_homebrew_cask_apps }}"
+    - role: geerlingguy.dotfiles
+      tags: dotfiles
+      vars:
+        dotfiles_repo: "{{ common_dotfiles_repo }}"
+        dotfiles_repo_local_destination: "{{ common_dotfiles_repo_local_destination }}"
+        dotfiles_files: "{{ common_dotfiles_files }}"
+    - role: dotfiles
+      tags: dotfiles
+    - role: zsh
+      tags: zsh
+    - role: neovim
+      tags: neovim
+    - role: rbenv
+      tags: rbenv
+    - role: geerlingguy.mac.mas
+      tags: mas
+      vars:
+        mas_installed_apps: "{{ common_mas_installed_apps + capri_mas_installed_apps }}"
+      ignore_errors: yes

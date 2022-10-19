@@ -1,0 +1,3 @@
+- name: Install python plugin for neovim
+  shell: |
+    pip3 install neovim

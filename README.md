@@ -1,31 +1,54 @@
 MacOS Provisioning
 ==================
 
-### Mac
+# Initialization
 
-Install Homebrew
+## Installation
 ```
+# Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-Installation
-```
+# Install packages
 brew install ghq
 brew install ansible
-```
 
-Prepare
-```
-# Checkout dotfiles with ghq
+# Checkout repositories
 ghq get https://github.com/nalabjp/mac.git
-
-# Install ansible-galaxy collections
-cd `ghq root`/github.com/nalabjp/mac/ansible
-ansible-galaxy collection install -r requirements.yml
+ghq get https://github.com/nalabjp/dotfiles.git
 ```
 
-Set up
+## Ansible configuration
 ```
-cd `ghq root`/github.com/nalabjp/mac/ansible
-ansible-playbook [machine].yml
+echo [Ansible vault password] > ~/.ansible-vault
+```
+
+## Set up with ansible-playbook
+```
+cd `ghq root`/github.com/nalabjp/mac
+make capri
+```
+## Update
+### Run ansible-playbook
+```
+make capri
+```
+
+### Run ansible-playbook with `--tags` options
+```
+make capri TAGS=homebrew,dotfiles
+```
+
+### Show tags
+```
+make capri-tags
+```
+
+## Git credential-osxkeychain configuration
+```
+source ~/.zshrc.local
+echo host=github.com\\n\
+protocol=https\\n\
+username=nalabjp\\n\
+password=$(echo $GITHUB_ACCESS_TOKEN) | git credential-osxkeychain store
 ```
