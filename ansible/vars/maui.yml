@@ -1,0 +1,3 @@
+maui_homebrew_installed_packages:
+  - mysql@5.7
+  - postgresql@11

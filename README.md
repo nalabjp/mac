@@ -26,22 +26,22 @@ echo [Ansible vault password] > ~/.ansible-vault
 ## Set up with ansible-playbook
 ```
 cd `ghq root`/github.com/nalabjp/mac
-make capri
+make maui
 ```
 ## Update
 ### Run ansible-playbook
 ```
-make capri
+make maui
 ```
 
 ### Run ansible-playbook with `--tags` options
 ```
-make capri TAGS=homebrew,dotfiles
+make maui TAGS=homebrew,dotfiles
 ```
 
 ### Show tags
 ```
-make capri-tags
+make maui-tags
 ```
 
 ## Git credential-osxkeychain configuration

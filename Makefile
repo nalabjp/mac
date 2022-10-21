@@ -7,13 +7,25 @@ all: ;
 prepare:
 	ansible-galaxy collection install -r ansible/requirements.yml
 
+.PHONY: maui
+maui: prepare
+	ANSIBLE_CONFIG=ansible/ansible.cfg ansible-playbook ansible/maui.yml --vault-password-file ~/.ansible-vault --tags $(TAGS)
+
+.PHONY: maui-debug
+maui-debug: prepare
+	ANSIBLE_CONFIG=ansible/ansible.cfg ansible-playbook ansible/maui.yml --vault-password-file ~/.ansible-vault --tags $(TAGS) -vvvvvv
+
+.PHONY: maui-tags
+maui-tags:
+	ANSIBLE_CONFIG=ansible/ansible.cfg ansible-playbook ansible/maui.yml --vault-password-file ~/.ansible-vault --list-tags
+
 .PHONY: capri
 capri: prepare
 	ANSIBLE_CONFIG=ansible/ansible.cfg ansible-playbook ansible/capri.yml --vault-password-file ~/.ansible-vault --tags $(TAGS)
 
 .PHONY: capri-debug
 capri-debug: prepare
-	ANSIBLE_CONFIG=ansible/ansible.cfg ansible-playbook ansible/capri.yml -vvvvvv --vault-password-file ~/.ansible-vault --tags $(TAGS)
+	ANSIBLE_CONFIG=ansible/ansible.cfg ansible-playbook ansible/capri.yml --vault-password-file ~/.ansible-vault --tags $(TAGS) -vvvvvv
 
 .PHONY: capri-tags
 capri-tags:
