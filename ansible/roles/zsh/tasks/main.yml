@@ -11,3 +11,13 @@
   user:
     name: "{{ ansible_user }}"
     shell: /opt/homebrew/bin/zsh
+
+- name: Check marlonrichert/zsh-autocomplete repository
+  stat:
+    path: ~/ghq/github.com/marlonrichert/zsh-autocomplete
+  register: zsh_autocomplete_repo
+
+- name: Check out marlonrichert/zsh-autocomplete repository
+  shell: |
+    ghq get https://github.com/marlonrichert/zsh-autocomplete.git
+  when: not zsh_autocomplete_repo.stat.exists
