@@ -112,8 +112,7 @@ common_dotfiles_files:
   - .rspec
   - .tigrc
   - .tmux.conf
-  - .zprofile
-  - .zshenv
+  - .zfunctions
   - .zshrc
 common_mas_installed_apps:
   - { id: 1480933944, name: "Vimari" }
