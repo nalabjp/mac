@@ -138,7 +138,7 @@
 	<key>description</key>
 	<string>GitHub for Alfred</string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>GitHub</string>
 	<key>objects</key>
@@ -674,6 +674,8 @@ Version 1.1 – 2015-01-10
 			<integer>40</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>hotkey</key>
