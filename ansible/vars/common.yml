@@ -45,6 +45,7 @@ common_homebrew_installed_packages:
   - noti
   - openjdk
   - openssl@1.1
+  - php
   - pstree
   - pup
   - pt # the_platinum_searcher
