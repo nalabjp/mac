@@ -138,7 +138,7 @@
 	<key>description</key>
 	<string>GitHub for Alfred</string>
 	<key>disabled</key>
-	<true/>
+	<false/>
 	<key>name</key>
 	<string>GitHub</string>
 	<key>objects</key>
