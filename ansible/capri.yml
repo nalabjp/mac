@@ -28,6 +28,8 @@
         dotfiles_files: "{{ common_dotfiles_files }}"
     - role: dotfiles
       tags: dotfiles
+      vars:
+        group_name: capri
     - role: zsh
       tags: zsh
     - role: neovim

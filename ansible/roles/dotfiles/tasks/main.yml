@@ -5,4 +5,4 @@
 
 - name: Create ~/.zshrc.local
   shell: |
-    ansible-vault view ~/ghq/github.com/nalabjp/dotfiles/.zshrc.local.enc --vault-password-file ~/.ansible-vault > ~/.zshrc.local
+    ansible-vault view ~/ghq/github.com/nalabjp/dotfiles/.zshrc.local.{{ group_name }}.enc --vault-password-file ~/.ansible-vault > ~/.zshrc.local
