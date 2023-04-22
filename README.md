@@ -28,23 +28,23 @@ echo [Ansible vault password] > ~/.ansible-vault
 cd `ghq root`/github.com/nalabjp/mac
 make maui
 ```
-## Update
-### Run ansible-playbook
+# Update
+## Run ansible-playbook
 ```
 make maui
 ```
 
-### Run ansible-playbook with `--tags` options
+## Run ansible-playbook with `--tags` options
 ```
 make maui TAGS=homebrew,dotfiles
 ```
 
-### Show tags
+## Show tags
 ```
 make maui-tags
 ```
 
-## Git credential-osxkeychain configuration
+# Git credential-osxkeychain configuration
 ```
 source ~/.zshrc.local
 echo host=github.com\\n\
