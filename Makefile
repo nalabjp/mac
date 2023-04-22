@@ -5,7 +5,11 @@ all: ;
 
 .PHONY: prepare
 prepare:
-	ansible-galaxy collection install -r ansible/requirements.yml
+	ansible-galaxy install -r ansible/requirements.yml
+
+.PHONY: prepare-force
+prepare-force:
+	ansible-galaxy install --force -r ansible/requirements.yml
 
 .PHONY: maui
 maui: prepare
