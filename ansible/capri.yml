@@ -8,11 +8,9 @@
     - vars/common.yml
     - vars/capri.yml
 
-  pre_tasks:
-    - ansible.builtin.include_role:
-        name: directories
-
   roles:
+    - role: directories
+      tags: always
     - role: geerlingguy.mac.homebrew
       tags: homebrew
       vars:
