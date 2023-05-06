@@ -76,8 +76,8 @@ common_homebrew_uninstalled_packages:
   - emojify
   - ffmpeg
   - hidetatz/tap/kubecolor # not support krew?
-  - mecab
   - mecab-ipadic
+  - mecab
   - mongodb-community
   - nodenv
   - openvpn
