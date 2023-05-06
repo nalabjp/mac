@@ -8,6 +8,7 @@
 
 - name: Change user shell to brew zsh
   become: yes
+  become_user: root
   user:
     name: "{{ ansible_user }}"
     shell: /opt/homebrew/bin/zsh
