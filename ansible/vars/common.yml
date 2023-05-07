@@ -57,6 +57,7 @@ common_homebrew_installed_packages:
   - redis
   - rename
   - ruby-build
+  - sheldon
   - source-highlight
   - starship
   - sqlite
@@ -70,7 +71,6 @@ common_homebrew_installed_packages:
   - webpack
   - wget
   - yarn
-  - zplug
   - zsh
 common_homebrew_uninstalled_packages:
   - emojify
@@ -82,6 +82,7 @@ common_homebrew_uninstalled_packages:
   - nodenv
   - openvpn
   - pandoc
+  - zplug
 common_homebrew_cask_apps:
   - alfred
   - authy
@@ -104,6 +105,7 @@ common_dotfiles_files:
   - .config/karabiner/assets/complex_modifications/1529164038.json
   - .config/nvim/init.vim
   - .config/pry/pryrc
+  - .config/sheldon/plugins.toml
   - .config/starship.toml
   - .gemrc
   - .gitconfig

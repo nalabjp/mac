@@ -12,3 +12,4 @@
     - "{{ xdg_config_home }}/pry"
     - "{{ xdg_config_home }}/karabiner"
     - "{{ xdg_config_home }}/karabiner/assets/complex_modifications"
+    - "{{ xdg_config_home }}/sheldon"
