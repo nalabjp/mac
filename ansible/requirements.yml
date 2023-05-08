@@ -1,7 +1,13 @@
 collections:
+  # TODO:
+  # Either update to a version where the problem has been resolved or make the forked repo available for reference.
+  # As a workaround, patch directly to local sources after installation.
+  # Comment out `recurse: true` in `Ensure proper ownership on homebrew_install_path subdirs.`
+  # https://github.com/nalabjp/ansible-collection-mac/commit/8 ddaeec8e50659d539796fd8317b4bc2d37f191a
   - name: geerlingguy.mac
     version: 2.1.1
 
 roles:
   - name: geerlingguy.dotfiles
     version: 1.2.1
+  - name: elliotweiser.osx-command-line-tools
