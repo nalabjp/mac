@@ -30,6 +30,7 @@ common_homebrew_installed_packages:
   - hub
   - htop
   - httpie
+  - hyperfine
   - imagemagick
   - jq
   - krew
