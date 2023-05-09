@@ -95,9 +95,9 @@ common_homebrew_cask_apps:
   - karabiner-elements
   - sequel-pro
   - slack
+  - skitch
   - zoom
 common_homebrew_cask_uninstalled_apps:
-  - skitch
 common_dotfiles_repo: https://github.com/nalabjp/dotfiles.git
 common_dotfiles_repo_local_destination: ~/ghq/github.com/nalabjp/dotfiles
 common_dotfiles_files:

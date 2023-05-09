@@ -18,7 +18,7 @@
         homebrew_installed_packages: "{{ common_homebrew_installed_packages + capri_homebrew_installed_packages }}"
         homebrew_uninstalled_packages: "{{ common_homebrew_uninstalled_packages }}"
         homebrew_cask_apps: "{{ common_homebrew_cask_apps }}"
-        homebrew_cask_uninstalled_apps: "{{ common_homebrew_cask_uninstalled_apps }}"
+        homebrew_cask_uninstalled_apps: "{{ common_homebrew_cask_uninstalled_apps | default([], true) }}"
     - role: geerlingguy.dotfiles
       tags: dotfiles
       vars:
