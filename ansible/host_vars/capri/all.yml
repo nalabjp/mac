@@ -1,0 +1,136 @@
+xdg_config_home: ~/.config
+ansible_machine: arm64
+dotfiles_repo: https://github.com/nalabjp/dotfiles.git
+dotfiles_repo_local_destination: ~/ghq/github.com/nalabjp/dotfiles
+dotfiles_files:
+  - .bundle
+  - .config/karabiner/karabiner.json
+  - .config/karabiner/assets/complex_modifications/1529164038.json
+  - .config/nvim/init.vim
+  - .config/pry/pryrc
+  - .config/sheldon/plugins.toml
+  - .config/starship.toml
+  - .gemrc
+  - .gitconfig
+  - .gitignore
+  - .gitscript
+  - .gvimrc
+  - .rbenv/default-gems
+  - .rspec
+  - .tigrc
+  - .tmux.conf
+  - .zfunctions
+  - .zshrc
+homebrew_prefix: /opt/homebrew
+homebrew_install_path: "{{ homebrew_prefix }}"
+homebrew_user: "{{ ansible_user_id }}"
+homebrew_group: "{{ ansible_user_gid }}"
+homebrew_use_brewfile: false
+homebrew_cask_accept_external_apps: true
+homebrew_taps:
+  - homebrew/core
+  - heroku/brew
+  - mongodb/brew
+  - neovim/neovim
+  - osx-cross/avr # for ergodox-ez
+homebrew_installed_packages:
+  - asdf
+  - awscli
+  - avr-gcc # for ergodox-ez
+  - cmake
+  - colordiff
+  - coreutils
+  - dfu-programmer # for ergodox-ez
+  - direnv
+  - findutils
+  - fontforge
+  - fzf
+  - ghq
+  - gist
+  - git
+  - git-filter-repo
+  - git-lfs
+  - git-now
+  - gnu-sed
+  - gnu-tar
+  - go
+  - glide
+  - heroku
+  - hub
+  - htop
+  - httpie
+  - hyperfine
+  - imagemagick
+  - jq
+  - krew
+  - kustomize
+  - libxml2
+  - libxslt
+  - lua
+  - mas
+  - minikube
+  - mysql@5.7
+  - neovim
+  - nginx
+  - nkf
+  - noti
+  - openjdk
+  - openssl@1.1
+  - php
+  - pstree
+  - pup
+  - pt # the_platinum_searcher
+  - python3
+  - pwgen
+  - rbenv
+  - rbenv-default-gems
+  - readline
+  - redis
+  - rename
+  - ruby-build
+  - sheldon
+  - source-highlight
+  - starship
+  - sqlite
+  - teensy_loader_cli # for ergodox-ez
+  - tfenv
+  - the_silver_searcher # ag
+  - tig
+  - tmux
+  - tree
+  - watch
+  - webpack
+  - wget
+  - yarn
+  - zsh
+homebrew_uninstalled_packages:
+  - emojify
+  - ffmpeg
+  - hidetatz/tap/kubecolor # not support krew?
+  - mecab-ipadic
+  - mecab
+  - mongodb-community
+  - nodenv
+  - openvpn
+  - pandoc
+  - zplug
+homebrew_cask_apps:
+  - alfred
+  - authy
+  - chromedriver
+  - deepl
+  - docker
+  - google-chrome
+  - iterm2
+  - karabiner-elements
+  - sequel-pro
+  - slack
+  - skitch
+  - zoom
+homebrew_cask_uninstalled_apps: []
+mas_installed_apps:
+  - { id: 1602945200, name: "Authen" }
+  - { id: 1592710340, name: "AWS Extend Switch Roles" }
+  - { id: 1510445899, name: "Meeter" }
+  - { id: 614598604,  name: "TrustLogin" }
+  - { id: 1480933944, name: "Vimari" }

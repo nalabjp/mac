@@ -1,0 +1,31 @@
+- name: Set up Mac
+  hosts: all
+  become_user: "{{ ansible_user }}"
+  gather_facts: yes
+
+  tasks:
+    - ansible.builtin.import_role:
+        name: directories
+      tags: [dotfiles, neovim, rbenv]
+    - ansible.builtin.import_role:
+        name: geerlingguy.mac.homebrew
+      tags: homebrew
+    - ansible.builtin.import_role:
+        name: geerlingguy.dotfiles
+      tags: dotfiles
+    - ansible.builtin.import_role:
+        name: dotfiles
+      tags: dotfiles
+    - ansible.builtin.import_role:
+        name: zsh
+      tags: zsh
+    - ansible.builtin.import_role:
+        name: neovim
+      tags: neovim
+    - ansible.builtin.import_role:
+        name: rbenv
+      tags: rbenv
+    - ansible.builtin.import_role:
+        name: geerlingguy.mac.mas
+      tags: mas
+      ignore_errors: yes

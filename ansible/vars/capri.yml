@@ -1,7 +1,0 @@
-capri_homebrew_installed_packages:
-  - mysql@5.7
-capri_mas_installed_apps:
-  - { id: 1510445899, name: "Meeter" }
-  - { id: 1602945200, name: "Authen" }
-  - { id: 1592710340, name: "AWS Extend Switch Roles" }
-  - { id: 614598604,  name: "TrustLogin" }
