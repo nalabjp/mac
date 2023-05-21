@@ -52,3 +52,11 @@ protocol=https\\n\
 username=nalabjp\\n\
 password=$(echo $GITHUB_ACCESS_TOKEN) | git credential-osxkeychain store
 ```
+
+# Keyboard
+- Keychron Q11
+    - [VIA](caniusevia.com)
+- ErgoDox EZ
+    - ./ergodox
+- Keyball61
+    - [Remap](https://remap-keys.app/configure)
