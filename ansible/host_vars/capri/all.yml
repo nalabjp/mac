@@ -117,7 +117,6 @@ homebrew_uninstalled_packages:
 homebrew_cask_apps:
   - alfred
   - authy
-  - chromedriver
   - deepl
   - docker
   - google-chrome
@@ -127,7 +126,8 @@ homebrew_cask_apps:
   - slack
   - skitch
   - zoom
-homebrew_cask_uninstalled_apps: []
+homebrew_cask_uninstalled_apps:
+  - chromedriver
 mas_installed_apps:
   - { id: 1602945200, name: "Authen" }
   - { id: 1592710340, name: "AWS Extend Switch Roles" }

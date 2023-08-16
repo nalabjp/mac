@@ -118,7 +118,6 @@ homebrew_uninstalled_packages:
 homebrew_cask_apps:
   - alfred
   - authy
-  - chromedriver
   - deepl
   - docker
   - google-chrome
@@ -128,6 +127,7 @@ homebrew_cask_apps:
   - slack
   - skitch
   - zoom
-homebrew_cask_uninstalled_apps: []
+homebrew_cask_uninstalled_apps:
+  - chromedriver
 mas_installed_apps:
   - { id: 1480933944, name: "Vimari" }
