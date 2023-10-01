@@ -10,6 +10,7 @@ dotfiles_files:
   - .config/pry/pryrc
   - .config/sheldon/plugins.toml
   - .config/starship.toml
+  - .default-gems
   - .gemrc
   - .gitconfig
   - .gitignore
