@@ -6,7 +6,6 @@
     recurse: yes
   loop:
     - ~/.vim
-    - ~/.rbenv
     - "{{ xdg_config_home }}"
     - "{{ xdg_config_home }}/nvim"
     - "{{ xdg_config_home }}/pry"

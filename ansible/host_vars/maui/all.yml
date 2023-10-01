@@ -17,7 +17,6 @@ dotfiles_files:
   - .gitignore
   - .gitscript
   - .gvimrc
-  - .rbenv/default-gems
   - .rspec
   - .tigrc
   - .tmux.conf
@@ -85,8 +84,6 @@ homebrew_installed_packages:
   - pt # the_platinum_searcher
   - python3
   - pwgen
-  - rbenv
-  - rbenv-default-gems
   - readline
   - redis
   - rename
@@ -116,6 +113,8 @@ homebrew_uninstalled_packages:
   - nodenv
   - openvpn
   - pandoc
+  - rbenv-default-gems
+  - rbenv
   - zplug
 homebrew_cask_apps:
   - alfred

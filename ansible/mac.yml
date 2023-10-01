@@ -6,7 +6,7 @@
   tasks:
     - ansible.builtin.import_role:
         name: directories
-      tags: [dotfiles, neovim, rbenv]
+      tags: [dotfiles, neovim]
     - ansible.builtin.import_role:
         name: geerlingguy.mac.homebrew
       tags: homebrew
@@ -22,9 +22,6 @@
     - ansible.builtin.import_role:
         name: neovim
       tags: neovim
-    - ansible.builtin.import_role:
-        name: rbenv
-      tags: rbenv
     - ansible.builtin.import_role:
         name: geerlingguy.mac.mas
       tags: mas
