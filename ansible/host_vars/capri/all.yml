@@ -3,6 +3,7 @@ ansible_machine: arm64
 dotfiles_repo: https://github.com/nalabjp/dotfiles.git
 dotfiles_repo_local_destination: ~/ghq/github.com/nalabjp/dotfiles
 dotfiles_files:
+  - .asdfrc
   - .bundle
   - .config/karabiner/karabiner.json
   - .config/karabiner/assets/complex_modifications/1529164038.json
