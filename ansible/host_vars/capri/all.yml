@@ -70,7 +70,6 @@ homebrew_installed_packages:
   - lua
   - mas
   - minikube
-  - mysql@5.7
   - neovim
   - nginx
   - nkf
@@ -109,6 +108,7 @@ homebrew_uninstalled_packages:
   - mecab-ipadic
   - mecab
   - mongodb-community
+  - mysql@5.7
   - nodenv
   - openvpn
   - pandoc
@@ -120,18 +120,15 @@ homebrew_cask_apps:
   - authy
   - deepl
   - docker
-  - google-chrome
   - iterm2
   - karabiner-elements
-  - sequel-pro
   - slack
   - skitch
-  - zoom
 homebrew_cask_uninstalled_apps:
   - chromedriver
+  - google-chrome
+  - sequel-pro
+  - zoom
 mas_installed_apps:
-  - { id: 1602945200, name: "Authen" }
-  - { id: 1592710340, name: "AWS Extend Switch Roles" }
   - { id: 1510445899, name: "Meeter" }
-  - { id: 614598604,  name: "TrustLogin" }
   - { id: 1480933944, name: "Vimari" }
