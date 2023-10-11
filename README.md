@@ -23,6 +23,10 @@ ghq get https://github.com/nalabjp/dotfiles.git
 echo [Ansible vault password] > ~/.ansible-vault
 ```
 
+## Patch Ansible collection source
+See [here](https://github.com/nalabjp/mac/blob/c45704c5c2f115dc8aa5893d1e0fc02fef52d9a7/ansible/requirements.yml#L3-L5)
+Patch location: ~/.ansible/collections/ansible_collections/geerlingguy/mac/roles/homebrew/tasks/main.yml
+
 ## Set up with ansible-playbook
 ```
 cd `ghq root`/github.com/nalabjp/mac
