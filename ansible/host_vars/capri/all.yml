@@ -131,6 +131,7 @@ homebrew_cask_apps:
   - skitch
 homebrew_cask_uninstalled_apps:
   - chromedriver
+  - docker
 mas_installed_apps:
   - { id: 1510445899, name: "Meeter" }
   - { id: 1480933944, name: "Vimari" }
