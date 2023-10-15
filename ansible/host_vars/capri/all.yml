@@ -122,9 +122,9 @@ homebrew_cask_apps:
   - alfred
   - authy
   - deepl
-  - docker
   - iterm2
   - karabiner-elements
+  - rancher
   - sequel-pro
   - slack
   - skitch
