@@ -121,6 +121,7 @@ homebrew_cask_apps:
   - authy
   - deepl
   - docker
+  - git-credential-manager
   - google-chrome
   - iterm2
   - karabiner-elements
