@@ -122,6 +122,7 @@ homebrew_cask_apps:
   - alfred
   - authy
   - deepl
+  - git-credential-manager
   - iterm2
   - karabiner-elements
   - rancher
