@@ -57,8 +57,10 @@ homebrew_installed_packages:
   - gnu-tar
   - go
   - glide
+  - harelba/q/q
   - heroku
   - hub
+  - hubflow
   - htop
   - httpie
   - hyperfine
