@@ -22,13 +22,22 @@
 			<key>enabled</key>
 			<true/>
 			<key>keyword</key>
-			<string>issue</string>
+			<string>ghis</string>
 			<key>text</key>
 			<string>Open GitHub Issues</string>
 			<key>url</key>
 			<string>https://github.com/issues</string>
-			<key>utf8</key>
+		</dict>
+		<key>8374B941-551A-4550-9A10-C7FF0616A947</key>
+		<dict>
+			<key>enabled</key>
 			<true/>
+			<key>keyword</key>
+			<string>ghno</string>
+			<key>text</key>
+			<string>Open GitHub notifications</string>
+			<key>url</key>
+			<string>https://github.com/notifications</string>
 		</dict>
 		<key>9A84CB6E-58E3-4AE4-8A70-498D7622F9EC</key>
 		<dict>
@@ -43,31 +52,16 @@
 			<key>utf8</key>
 			<true/>
 		</dict>
-		<key>A33149C7-C013-4204-914F-015ECF8BFB1E</key>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyword</key>
-			<string>kibe</string>
-			<key>text</key>
-			<string>Open kibela</string>
-			<key>url</key>
-			<string>https://linkers.kibe.la/</string>
-			<key>utf8</key>
-			<true/>
-		</dict>
 		<key>BB93FD61-DEF3-419E-80F4-2D7AE2A0BCA9</key>
 		<dict>
 			<key>enabled</key>
 			<true/>
 			<key>keyword</key>
-			<string>pr</string>
+			<string>ghpr</string>
 			<key>text</key>
 			<string>Open Github Pull requests</string>
 			<key>url</key>
 			<string>https://github.com/pulls</string>
-			<key>utf8</key>
-			<true/>
 		</dict>
 		<key>CC9117CB-BA6D-41B2-8B9B-D3BC39FBC8D4</key>
 		<dict>
@@ -81,19 +75,6 @@
 			<string>Open Google Calendar</string>
 			<key>url</key>
 			<string>https://www.google.com/calendar/</string>
-			<key>utf8</key>
-			<true/>
-		</dict>
-		<key>D9C3A0D0-D501-4C7F-AE71-D97E45B89A35</key>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyword</key>
-			<string>kibe</string>
-			<key>text</key>
-			<string>Search Kibela for '{query}'</string>
-			<key>url</key>
-			<string>https://linkers.kibe.la/search?query={query}</string>
 			<key>utf8</key>
 			<true/>
 		</dict>
