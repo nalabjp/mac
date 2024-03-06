@@ -18,6 +18,7 @@ dotfiles_files:
   - .gitignore
   - .gitscript
   - .gvimrc
+  - .ideavimrc
   - .rspec
   - .tigrc
   - .tmux.conf
