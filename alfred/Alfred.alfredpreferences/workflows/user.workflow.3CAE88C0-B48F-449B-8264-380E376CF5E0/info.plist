@@ -440,6 +440,15 @@ echo Workflow::getItemsAsXml();</string>
 	<string>Changelog
 =========
 
+Version 1.9 – 2024-02-04
+------------------------
+
+### Features
+
+* Better support for Alfred 5
+* `gh my stars` opens `/&lt;username&gt;?tab=stars` instead of `/stars`
+
+
 Version 1.8.1 – 2022-10-16
 --------------------------
 
@@ -674,15 +683,13 @@ Version 1.1 – 2015-01-10
 			<integer>40</integer>
 		</dict>
 	</dict>
-	<key>userconfigurationconfig</key>
-	<array/>
 	<key>variables</key>
 	<dict>
 		<key>hotkey</key>
 		<string>0</string>
 	</dict>
 	<key>version</key>
-	<string>1.8.1</string>
+	<string>1.9</string>
 	<key>webaddress</key>
 	<string>https://github.com/gharlan/alfred-github-workflow</string>
 </dict>
