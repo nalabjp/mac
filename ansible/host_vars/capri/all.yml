@@ -80,6 +80,7 @@ homebrew_installed_packages:
   - neovim
   - nginx
   - nkf
+  - noborus/tap/trdsql
   - noti
   - openjdk
   - openssl@1.1
