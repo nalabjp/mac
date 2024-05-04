@@ -133,6 +133,7 @@ homebrew_cask_apps:
   - sequel-pro
   - slack
   - skitch
+  - visual-studio-code
   - 1password-cli
 homebrew_cask_uninstalled_apps:
   - chromedriver
