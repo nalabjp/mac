@@ -113,7 +113,6 @@ homebrew_installed_packages:
 homebrew_uninstalled_packages:
   - emojify
   - ffmpeg
-  - hidetatz/tap/kubecolor # not support krew?
   - mecab-ipadic
   - mecab
   - mongodb-community
