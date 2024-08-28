@@ -33,6 +33,7 @@ homebrew_cask_accept_external_apps: true
 homebrew_taps:
   - homebrew/core
   - heroku/brew
+  - kayac/tap
   - mongodb/brew
   - neovim/neovim
   - osx-cross/avr # for ergodox-ez
@@ -68,6 +69,7 @@ homebrew_installed_packages:
   - imagemagick
   - jsonnet
   - jq
+  - kayac/tap/ecspresso
   - krew
   - kustomize
   - lazydocker
