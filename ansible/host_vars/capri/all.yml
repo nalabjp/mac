@@ -37,6 +37,7 @@ homebrew_taps:
   - mongodb/brew
   - neovim/neovim
   - osx-cross/avr # for ergodox-ez
+  - songmu/tap
 homebrew_installed_packages:
   - asdf
   - awscli
@@ -99,6 +100,7 @@ homebrew_installed_packages:
   - ruby-build
   - saml2aws
   - sheldon
+  - songmu/tap/ecschedule
   - source-highlight
   - starship
   - sqlite
