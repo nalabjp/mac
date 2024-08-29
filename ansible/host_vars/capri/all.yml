@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - findutils
   - fontforge
   - fzf
+  - gh
   - ghq
   - gist
   - git
