@@ -148,3 +148,4 @@ homebrew_cask_uninstalled_apps:
 mas_installed_apps:
   - { id: 1510445899, name: "Meeter" }
   - { id: 1480933944, name: "Vimari" }
+  - { id: 1480933944, name: "BetterSnapTool" }

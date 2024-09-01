@@ -133,3 +133,4 @@ homebrew_cask_uninstalled_apps:
   - chromedriver
 mas_installed_apps:
   - { id: 1480933944, name: "Vimari" }
+  - { id: 1480933944, name: "BetterSnapTool" }
