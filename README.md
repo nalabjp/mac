@@ -10,12 +10,12 @@ MacOS Provisioning
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install packages
-brew install ghq
+brew install gh
 brew install ansible
 
 # Checkout repositories
-ghq get https://github.com/nalabjp/mac.git
-ghq get https://github.com/nalabjp/dotfiles.git
+gh repo clone nalabjp/mac ~/src/nalabjp/mac
+gh repo clone nalabjp/dotfiles ~/src/nalabjp/dotfiles
 ```
 
 ## Ansible configuration
@@ -29,7 +29,7 @@ Patch location: ~/.ansible/collections/ansible_collections/geerlingguy/mac/roles
 
 ## Set up with ansible-playbook
 ```
-cd `ghq root`/github.com/nalabjp/mac
+cd ~/src/nalabjp/mac
 make maui
 ```
 # Update

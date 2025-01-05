@@ -1,7 +1,7 @@
 xdg_config_home: ~/.config
 ansible_machine: arm64
 dotfiles_repo: https://github.com/nalabjp/dotfiles.git
-dotfiles_repo_local_destination: ~/ghq/github.com/nalabjp/dotfiles
+dotfiles_repo_local_destination: ~/src/nalabjp/dotfiles
 dotfiles_files:
   - .asdfrc
   - .bundle
