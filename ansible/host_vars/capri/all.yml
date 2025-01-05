@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - coreutils
   - dfu-programmer # for ergodox-ez
   - direnv
+  - fd
   - findutils
   - fontforge
   - fzf
