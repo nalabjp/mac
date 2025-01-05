@@ -131,7 +131,6 @@ homebrew_uninstalled_packages:
   - zplug
 homebrew_cask_apps:
   - alfred
-  - authy
   - deepl
   - git-credential-manager
   - iterm2
@@ -143,6 +142,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - 1password-cli
 homebrew_cask_uninstalled_apps:
+  - authy
   - chromedriver
   - docker
 mas_installed_apps:

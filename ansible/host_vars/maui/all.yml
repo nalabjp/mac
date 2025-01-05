@@ -119,7 +119,6 @@ homebrew_uninstalled_packages:
   - zplug
 homebrew_cask_apps:
   - alfred
-  - authy
   - deepl
   - docker
   - git-credential-manager
@@ -131,6 +130,7 @@ homebrew_cask_apps:
   - skitch
   - zoom
 homebrew_cask_uninstalled_apps:
+  - authy
   - chromedriver
 mas_installed_apps:
   - { id: 1480933944, name: "Vimari" }
