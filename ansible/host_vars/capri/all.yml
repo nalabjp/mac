@@ -62,7 +62,6 @@ homebrew_installed_packages:
   - glide
   - harelba/q/q
   - heroku
-  - hub
   - hubflow
   - htop
   - httpie
@@ -120,6 +119,7 @@ homebrew_uninstalled_packages:
   - emojify
   - ffmpeg
   - ghq
+  - hub
   - mecab-ipadic
   - mecab
   - mongodb-community
