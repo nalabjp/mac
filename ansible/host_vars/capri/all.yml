@@ -51,7 +51,6 @@ homebrew_installed_packages:
   - fontforge
   - fzf
   - gh
-  - ghq
   - gist
   - git
   - git-filter-repo
@@ -120,6 +119,7 @@ homebrew_installed_packages:
 homebrew_uninstalled_packages:
   - emojify
   - ffmpeg
+  - ghq
   - mecab-ipadic
   - mecab
   - mongodb-community
