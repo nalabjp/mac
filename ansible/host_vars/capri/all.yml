@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - fd
   - findutils
   - fontforge
+  - fujiwara/tap/ecsta
   - fzf
   - gh
   - gist
