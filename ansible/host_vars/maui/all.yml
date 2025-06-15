@@ -66,6 +66,7 @@ homebrew_installed_packages:
   - krew
   - kustomize
   - lazydocker
+  - libpq
   - libxml2
   - libxslt
   - lua
