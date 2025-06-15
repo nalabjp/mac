@@ -80,7 +80,7 @@ homebrew_installed_packages:
   - openjdk
   - openssl@1.1
   - php
-  - postgresql@11
+  - postgresql@14
   - pstree
   - pup
   - pt # the_platinum_searcher
