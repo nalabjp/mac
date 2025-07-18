@@ -15,6 +15,7 @@ dotfiles_files:
   - .gemrc
   - .gitconfig
   - .gitconfig_eightcard
+  - .gitconfig_sansaninc
   - .gitignore
   - .gitscript
   - .gvimrc
