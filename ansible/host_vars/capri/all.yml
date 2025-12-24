@@ -83,7 +83,7 @@ homebrew_installed_packages:
   - lua
   - mas
   - minikube
-  - mysql@5.7
+  - mysql@8.0
   - neovim
   - nginx
   - nkf
@@ -126,6 +126,7 @@ homebrew_uninstalled_packages:
   - mecab-ipadic
   - mecab
   - mongodb-community
+  - mysql@5.7
   - nodenv
   - openvpn
   - pandoc
