@@ -78,6 +78,17 @@
 			<key>utf8</key>
 			<true/>
 		</dict>
+		<key>D9DC1257-3E2F-432E-B245-BFEB1E5BE8BD</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gemini</string>
+			<key>text</key>
+			<string>Open Gemini</string>
+			<key>url</key>
+			<string>https://gemini.google.com</string>
+		</dict>
 		<key>E303BB11-E660-43FF-B81D-453EB92B27E6</key>
 		<dict>
 			<key>enabled</key>
@@ -92,6 +103,17 @@
 			<string>https://github.com/nalabjp/qmk_firmware/blob/master/keyboards/ergodox/keymaps/nalabjp/keymap.c</string>
 			<key>utf8</key>
 			<true/>
+		</dict>
+		<key>FB021FB4-5C43-4A5F-9ECC-303040070732</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gpt</string>
+			<key>text</key>
+			<string>Open ChatGPT</string>
+			<key>url</key>
+			<string>https://chatgpt.com/ja-JP/</string>
 		</dict>
 	</dict>
 	<key>onlyShowEnabledInPrefs</key>
