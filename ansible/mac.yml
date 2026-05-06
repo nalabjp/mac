@@ -7,6 +7,9 @@
     - ansible.builtin.import_role:
         name: directories
       tags: [dotfiles, neovim]
+    - name: brew update
+      command: /opt/homebrew/bin/brew update
+      tags: homebrew
     - ansible.builtin.import_role:
         name: geerlingguy.mac.homebrew
       tags: homebrew
