@@ -113,7 +113,6 @@ homebrew_uninstalled_packages:
   - mecab-ipadic
   - mecab
   - mongodb-community
-  - mysql@5.7
   - nodenv
   - openvpn
   - pandoc
