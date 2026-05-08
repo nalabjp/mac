@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - avr-gcc # for ergodox-ez
   - cmake
   - colordiff
+  - copilot-cli
   - coreutils
   - dfu-programmer # for ergodox-ez
   - direnv
