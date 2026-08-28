@@ -18,6 +18,8 @@ chezmoi init --apply nalabjp/dotfiles
 - **Alfred**: Alfred の設定画面から `alfred/Alfred.alfredpreferences` を読み込む
 - **ErgoDox EZ**: `ergodox/ergodox_ez_nalabjp.hex` を firmware として書き込む
 - **Keychron Q11**: `keychron/q11_ansi_knob.layout.json` を VIA にアップロードする
-- **iTerm2**: `iterm2/com.googlecode.iterm2.plist` を iTerm2 の設定として手動で読み込む
+- **iTerm2**: `iterm2/com.googlecode.iterm2.plist` を iTerm2 の設定として手動で読み込む。
+  Dynamic Profile（`~/Library/Application Support/iTerm2/DynamicProfiles/Default.json`）は
+  dotfiles リポジトリ側で chezmoi が管理する
 - **フォント**: `iterm2/Ricty Diminished Regular Nerd Font Complete.ttf` を
   `~/Library/Fonts` にコピーする
