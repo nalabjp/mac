@@ -21,5 +21,4 @@ chezmoi init --apply nalabjp/dotfiles
 - **iTerm2**: `iterm2/com.googlecode.iterm2.plist` を iTerm2 の設定として手動で読み込む。
   Dynamic Profile（`~/Library/Application Support/iTerm2/DynamicProfiles/Default.json`）は
   dotfiles リポジトリ側で chezmoi が管理する
-- **フォント**: `iterm2/Ricty Diminished Regular Nerd Font Complete.ttf` を
-  `~/Library/Fonts` にコピーする
+- **フォント**: HackGen Console NF は dotfiles リポジトリ側の Brewfile（cask `font-hackgen-nerd`）で導入される
