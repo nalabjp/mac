@@ -15,7 +15,8 @@ chezmoi init --apply nalabjp/dotfiles
 
 ## アセットの復元
 
-- **Alfred**: Alfred の設定画面から `alfred/Alfred.alfredpreferences` を読み込む
+- **Alfred**: 設定（`Alfred.alfredpreferences`）は dotfiles リポジトリ側の `alfred/` で管理し、
+  defaults で参照先を指定する
 - **ErgoDox EZ**: `ergodox/ergodox_ez_nalabjp.hex` を firmware として書き込む
 - **Keychron Q11**: `keychron/q11_ansi_knob.layout.json` を VIA にアップロードする
 - **iTerm2**: `iterm2/com.googlecode.iterm2.plist` を iTerm2 の設定として手動で読み込む。
